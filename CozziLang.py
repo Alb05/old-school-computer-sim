@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
                 elif (instruction[0][:2] == "JC"):
                     if (comp.overflow):
-                            i = int(instruction[1])
+                        i = int(instruction[1])
                     else:
                         i += 1
 

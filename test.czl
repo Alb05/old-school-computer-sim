@@ -1,0 +1,19 @@
+ldi 6
+sta 255
+ldi 4
+sta 254
+ldi 0
+sta 253
+ldi 1
+sta 252
+lda 255
+sub 254
+sta 255
+jc 17
+lda 253
+add 252
+sta 253
+jmp 9
+lda 253
+out
+hlt
